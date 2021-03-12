@@ -173,7 +173,7 @@ int main (void) {
 		}
 
 		
-		if (jogos[i] == num6)
+		if (jogos[i] == num5)
 		{
 					dinheiro = aposta[i] * 9000;
 										printf("Parabéns, você ganhou no dia: %d, na milhar: %d, e ganhou %d",dia,jogos[i],aposta[i] * 9000);
