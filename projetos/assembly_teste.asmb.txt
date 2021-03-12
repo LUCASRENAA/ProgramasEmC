@@ -1,0 +1,13 @@
+extern system
+global _main
+
+section .text
+
+_main:
+    push 0x00657865 ;.exe
+    push 0x2e646d63 ;.cmd
+    push esp
+    pop eax
+    push eax
+    mov ebx, 0x76ec3dc0 ;system
+    call ebx
