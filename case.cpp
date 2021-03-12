@@ -3,7 +3,7 @@
 int main()
 {
 	char a;
-	printf("Digite a letra que você quer ver em maiscula ou minuscula\n");
+	printf("Digite a letra que vocÃª quer ver em maiscula ou minuscula\n");
 	scanf("%c",&a);
 	
 	if (a >94)
