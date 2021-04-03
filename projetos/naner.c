@@ -48,9 +48,9 @@ int main (void) {
 	
 		
 
-	printf("JOGO DO BICHO PARA COMPUTADOR, CONHEÃ‡A NOSSO JOGO DO BICHO \n");
-	printf("FEITO POR LUCASRENAA----\n");
-	char nome[15];	
+	printf("------------------------JOGO DO BICHO PARA COMPUTADOR, CONHEÃ‡A NOSSO JOGO DO BICHO------------------------\n");
+	printf("========================FEITO                  POR                      LUCASRENAA========================\n");
+	char nome[15];
 	char tipo[4];
 	char arquivo[19];
 	int escolhas;
@@ -139,19 +139,19 @@ int main (void) {
 	
 		num1,num2,num3,num4,num5 = Resultado(dinheiro);
 		
-	printf("vamos ver se você ganhou \n");
+	printf("vamos ver se vocï¿½ ganhou \n");
 	for(i = 0; i < tamanho; i++)
 	{
 		
 		if (jogos[i] == num1){
 					dinheiro = dinheiro + aposta[i] * 9000;
-					printf("Parabéns, você ganhou no dia: %d, na milhar: %d, e ganhou %d",dia,jogos[i],aposta[i] * 9000);
+					printf("Parabï¿½ns, vocï¿½ ganhou no dia: %d, na milhar: %d, e ganhou %d",dia,jogos[i],aposta[i] * 9000);
 
 		}
 		if (jogos[i] == num2)
 		{
 					dinheiro = dinheiro + aposta[i] * 9000;
-										printf("Parabéns, você ganhou no dia: %d, na milhar: %d, e ganhou %d",dia,jogos[i],aposta[i] * 9000);
+										printf("Parabï¿½ns, vocï¿½ ganhou no dia: %d, na milhar: %d, e ganhou %d",dia,jogos[i],aposta[i] * 9000);
 
 
 		}
@@ -160,14 +160,14 @@ int main (void) {
 		{
 		
 					dinheiro = dinheiro + aposta[i] * 9000;
-											printf("Parabéns, você ganhou no dia: %d, na milhar: %d, e ganhou %d",dia,jogos[i],aposta[i] * 9000);
+											printf("Parabï¿½ns, vocï¿½ ganhou no dia: %d, na milhar: %d, e ganhou %d",dia,jogos[i],aposta[i] * 9000);
 
 
 				}
 		
 		if (jogos[i] == num4){
 					dinheiro = dinheiro + aposta[i] * 9000;
-										printf("Parabéns, você ganhou no dia: %d, na milhar: %d, e ganhou %d",dia,jogos[i],aposta[i] * 9000);
+										printf("Parabï¿½ns, vocï¿½ ganhou no dia: %d, na milhar: %d, e ganhou %d",dia,jogos[i],aposta[i] * 9000);
 
 
 		}
@@ -176,7 +176,7 @@ int main (void) {
 		if (jogos[i] == num5)
 		{
 					dinheiro = aposta[i] * 9000;
-										printf("Parabéns, você ganhou no dia: %d, na milhar: %d, e ganhou %d",dia,jogos[i],aposta[i] * 9000);
+										printf("Parabï¿½ns, vocï¿½ ganhou no dia: %d, na milhar: %d, e ganhou %d",dia,jogos[i],aposta[i] * 9000);
 
 
 		}
@@ -189,7 +189,7 @@ int main (void) {
 	
 {
 	num1,num2,num3,num4,num5 = Resultado(dinheiro);
-	printf("Você não jogou dessa vez :(\n");
+	printf("Vocï¿½ nï¿½o jogou dessa vez :(\n");
 	printf("%d\n",num1);
 	
 
@@ -210,7 +210,9 @@ int main (void) {
 		printf("Digite 4 para sair \n");
 
 	if (escolhas == 4)
+
 {
+
 		printf("Rapaz, vocÃª escolheu 4\n");
 			return 0;
 
@@ -220,6 +222,7 @@ int main (void) {
 
 }
 
+	printf("========================FEITO                  POR                      LUCASRENAA========================\n");
 
 	return 0;
 
