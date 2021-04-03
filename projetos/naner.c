@@ -189,8 +189,7 @@ int main (void) {
 	
 {
 	num1,num2,num3,num4,num5 = Resultado(dinheiro);
-	printf("Voc� n�o jogou dessa vez :(\n");
-	printf("%d\n",num1);
+
 	
 
 	

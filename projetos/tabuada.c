@@ -8,7 +8,10 @@ int main()
 
 
     int tabuada;
-    printf("Digite o valor da tabuada que voce quer trabalhar\n");
+    printf("------------------------                     TABUADA                              ------------------------\n");
+    printf("========================FEITO                  POR                      LUCASRENAA========================\n");
+
+    printf("Digite o valor da tabuada\n Exemplo: 5\n");
     scanf("%d",&tabuada);
     int calculartabuada();
 calculartabuada(tabuada);
@@ -16,6 +19,8 @@ if(tabuada==51)
 e=2;
    }
 while(e==1);
+    printf("========================FEITO                  POR                      LUCASRENAA========================\n");
+
     return 0;
 }
 
@@ -47,7 +52,6 @@ int calculartabuada(int tabuada){
 
         if(resposta[contador]==respostacerta[contador])
         {
-         printf("voce acertou !!!\n");
          acerto++;
         }
         else
